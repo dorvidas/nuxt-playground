@@ -1,7 +1,10 @@
 <template>
-  <Tutorial />
+  <Todos />
 </template>
 
 <script>
-export default {}
+import Todos from '~/components/Todos'
+export default {
+  components: { Todos }
+}
 </script>
